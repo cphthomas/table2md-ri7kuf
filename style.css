@@ -1,0 +1,54 @@
+body, html {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: #363636;
+}
+
+.handsontable tr:first-child td, .handsontable tr:first-child th {
+  font-weight: bold;
+  background-color: #f0f0f0; 
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 0;
+  border-width: 0;
+  table-layout: fixed;
+  width: 0;
+  outline-width: 0;
+  cursor: default;
+  max-width: none;
+  max-height: none;
+}
+
+table {
+  width: 100%;
+  padding: 0;
+}
+table tr {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+table tr th {
+  font-weight: bold;
+  background-color: #f0f0f0; 
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+table tr td {
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+table tr th :first-child, table tr td :first-child {
+  margin-top: 0;
+}
+table tr th :last-child, table tr td :last-child {
+  margin-bottom: 0;
+}
